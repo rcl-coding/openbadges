@@ -1,0 +1,17 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/assertions/cs-01-csharp-foundation/anil-ripla.json",
+    "recipient": {
+      "type": "url",
+      "hashed": false,
+      "identity": "https://github.com/rcl-coding/portfolio/anil_ripla.html"
+    },
+    "image": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/images/cs-01-csharp-foumdation.png",
+    "evidence": "https://github.com/rcl-coding/portfolio/anil_ripla.html",
+    "issuedOn": "2020-01-31T23:59:59Z",
+    "badge": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/badges/cs-01-csharp-foundation.json",
+    "verification": {
+      "type": "hosted"
+    }
+  }

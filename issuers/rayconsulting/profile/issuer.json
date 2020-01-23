@@ -1,0 +1,7 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Issuer",
+    "id": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/profile/issuer.json",
+    "name": "Ray Consulting Limited",
+    "image": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/images/logo_400.jpg"
+  }
