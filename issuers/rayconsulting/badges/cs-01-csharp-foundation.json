@@ -1,10 +1,10 @@
 {
     "@context": "https://w3id.org/openbadges/v2",
     "type": "BadgeClass",
-    "id": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/badges/cs-01-csharp-foundation.json",
+    "id": "https://rcl-coding.github.io/openbadges/issuers/rayconsulting/badges/cs-01-csharp-foundation.json",
     "name": "C# Foundation",
     "description": "Programming with C# - Foundation",
-    "image": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting//images/cs-01-csharp-foumdation.png",
+    "image": "https://rcl-coding.github.io/openbadges/issuers/images/cs-01-csharp-foundation.png",
     "criteria": "https://rcl-coding.github.io/openbadges-criteria/criteria/csharp-foundation.html",
-    "issuer": "https://github.com/rcl-coding/openbadges/issuers/rayconsulting/profile/issuer.json"
+    "issuer": "https://rcl-coding.github.io/openbadges/issuers/rayconsulting/profile/issuer.json"
   }
