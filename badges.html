@@ -2,6 +2,17 @@
 <html lang="en">
 
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146945738-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-146945738-3');
+    </script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,13 +30,14 @@
     <!-- Custom styles for this template -->
     <link href="css/business-casual.min.css" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Ray Consulting - Coding Skills.IO - Digital Badges</title>
+    <meta name="description" content="Earn digital badges to demonstrate your coding skills">
 </head>
 
 <body>
 
     <h1 class="site-heading text-center text-white d-none d-lg-block">
-        <span class="site-heading-upper text-primary mb-3">An Open Badges Framework</span>
+        <span class="site-heading-upper text-primary mb-3">Ray Consulting Limited</span>
         <span class="site-heading-lower">Coding Skills.IO</span>
     </h1>
 
@@ -39,16 +51,19 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item active px-lg-4">
+                    <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                            <span class="sr-only">(current)</span>
                         </a>
                     </li>
-                    <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="earners.html">Earners</a>
+                    <li class="nav-item active px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="badges.html">Badges</a>
+                        <span class="sr-only">(current)</span>
                     </li>
                     <li class="nav-item px-lg-4">
-                        <a class="nav-link text-uppercase text-expanded" href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUQlM0QzMzNTFPRU9CVzRJNzRIRE82R1BOQi4u">Apply</a>
+                        <a class="nav-link text-uppercase text-expanded" href="mentors.html">Mentors</a>
+                    </li>
+                    <li class="nav-item px-lg-4">
+                        <a class="nav-link text-uppercase text-expanded" href="employers.html">Employers</a>
                     </li>
                 </ul>
             </div>
@@ -59,24 +74,26 @@
         <div class="container">
             <div class="product-item">
                 <div class="product-item-title d-flex">
-                    <div class="bg-faded p-5 d-flex ml-auto rounded">
+                    <div class="bg-faded p-5 d-flex mr-auto rounded">
                         <h2 class="section-heading mb-0">
                             <span class="section-heading-upper">About</span>
-                            <span class="section-heading-lower">Earners</span>
+                            <span class="section-heading-lower">Badges</span>
                         </h2>
                     </div>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-01.jpg"
-                    alt="">
-                <div class="product-item-description d-flex mr-auto">
+                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/badges.jpg" alt="">
+                <div class="product-item-description d-flex ml-auto">
                     <div class="bg-faded p-5 rounded">
                         <p class="mb-0">
-                            Open badges are ideal for persons who have acquired skills through workplace experience or
-                            learning on their own.
-                            A micro-credentialing approach is used where earners can quickly achieve 'bite size' badges.
-                            The system also allows earners to learn a new skill by undertaking learning to complete
-                            tasks assigned by an assessor.
+                            A micro-credentialing approach is used where learners can quickly achieve 'bite size'
+                            badges.
+                            This allows a learner to immediately put their skills to work.
+                            Our badges are based on the <a
+                                href=https://www.imsglobal.org/sites/default/files/Badges/OBv2p0Final/index.html"
+                                target="_blank">Open Badges V2.0 Specification</a> published by the <a
+                                href="https://www.imsglobal.org/" target="_blank">IMS Global Learning Consortium</a>
                         </p>
+                        <a class="btn btn-info text-white mt-3">View our Badges</a>
                     </div>
                 </div>
             </div>
@@ -90,20 +107,19 @@
                     <div class="bg-faded p-5 d-flex mr-auto rounded">
                         <h2 class="section-heading mb-0">
                             <span class="section-heading-upper">About</span>
-                            <span class="section-heading-lower">Your Assessor</span>
+                            <span class="section-heading-lower">Your Mentor</span>
                         </h2>
                     </div>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-02.jpg"
-                    alt="">
+                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/mentor.jpg" alt="">
                 <div class="product-item-description d-flex ml-auto">
                     <div class="bg-faded p-5 rounded">
                         <p class="mb-0">
-                            Each earner is assigned an online assessor. The assessor will provide you with a project to
-                            complete, and provide you with learning materials to improve your knowledge and skill.
-                            The assessor will review your project and provide feedback to ensure you achieve the
-                            criteria for your badge.
-                            When the assessor is satisfied with your work, you wil be recommended for a badge.
+                            Each learner is assigned an online mentor.
+                            The mentor will provide you with a coding project to complete.
+                            The mentor will review your project and provide feedback to ensure you achieve the criteria
+                            for your badge.
+                            When the mentor is satisfied with your work, you will be recommended for a badge.
                         </p>
                     </div>
                 </div>
@@ -115,57 +131,43 @@
         <div class="container">
             <div class="product-item">
                 <div class="product-item-title d-flex">
-                    <div class="bg-faded p-5 d-flex ml-auto rounded">
+                    <div class="bg-faded p-5 d-flex mr-auto rounded">
                         <h2 class="section-heading mb-0">
                             <span class="section-heading-upper">About</span>
                             <span class="section-heading-lower">GitHub Classroom</span>
                         </h2>
                     </div>
                 </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-03.jpg"
+                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/git-classroom.jpg"
                     alt="">
-                <div class="product-item-description d-flex mr-auto">
+                <div class="product-item-description d-flex ml-auto">
                     <div class="bg-faded p-5 rounded">
                         <p class="mb-0">
-                            You will complete projects using GitHub Classroom.
-                            You assessor will review your project on GitHub and provide you with feedback.
+                            You will complete coding projects using GitHub Classroom. Your mentor will invite you on
+                            GitHub to complete an assignment.
+                            The mentor will review your project in your GitHub repository and provide you with feedback
+                            online.
                         </p>
+                        <a class="btn btn-info text-white mt-3">View a Sample Assignment</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="page-section">
+    <section class="page-section cta">
         <div class="container">
-            <div class="product-item">
-                <div class="product-item-title d-flex">
-                    <div class="bg-faded p-5 d-flex mr-auto rounded">
-                        <h2 class="section-heading mb-0">
-                            <span class="section-heading-upper">About</span>
-                            <span class="section-heading-lower">Portfolios</span>
-                        </h2>
-                    </div>
-                </div>
-                <img class="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0" src="img/products-04.jpg"
-                    alt="">
-                <div class="product-item-description d-flex mr-auto">
-                    <div class="bg-faded p-5 rounded">
-                        <p class="mb-0">
-                            You will create an online portfolio of your work.
-                            Your portfolio will contain images of your completed projects.
-                            It will also contain the badges you have achieved.
-                            You can also put information relating to your education and experience on your portfolio.
-                        </p>
-                    </div>
-                </div>
+            <div class="text-center">
+                <h3>Earn a Badge Now</h3>
+                <h1 class="text-white">$US25 / Badge</h1>
+                <btn class="btn btn-lg btn-danger text-white">APPLY</btn>
             </div>
         </div>
     </section>
 
     <footer class="footer text-faded text-center py-5">
         <div class="container">
-            <p class="m-0 small">Copyright &copy; Coding Skills Foundation 2020</p>
+            <p class="m-0 small">Copyright &copy; Ray Consulting Limited 2020</p>
         </div>
     </footer>
 
