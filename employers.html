@@ -13,6 +13,19 @@
         gtag('config', 'UA-146945738-3');
     </script>
 
+    <!-- Facebook SDK -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1995279044026677',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v5.0'
+            });
+        };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -63,7 +76,7 @@
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="bootcamp.html">Bootcamp</a>
-                      </li>
+                    </li>
                     <li class="nav-item active px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="employers.html">Employers</a>
                         <span class="sr-only">(current)</span>
@@ -94,6 +107,8 @@
                                 However, our services are only available in English, and our face-to-face service is
                                 only available in <strong>Trinidad</strong>.
                             </p>
+                            <div class="fb-messengermessageus" messenger_app_id="1995279044026677" page_id="182234162296278" color="blue"
+                            size="xlarge"></div>
                         </div>
                     </div>
                 </div>
@@ -105,8 +120,8 @@
         <div class="container">
             <div class="text-center">
                 <h3>Contact Us Now</h3>
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUMTZaRFhFNFlIUVFOODIzOTJOQ0ZQOERaSS4u" 
-                target="_blank" class="btn btn-lg btn-danger text-white">CONTACT US</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUMTZaRFhFNFlIUVFOODIzOTJOQ0ZQOERaSS4u"
+                    target="_blank" class="btn btn-lg btn-danger text-white" onClick="ga('send','event','Services','click','employers')">CONTACT US</a>
             </div>
         </div>
     </section>

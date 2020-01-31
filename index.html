@@ -13,6 +13,19 @@
     gtag('config', 'UA-146945738-3');
   </script>
 
+  <!-- Facebook SDK -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        appId: '1995279044026677',
+        autoLogAppEvents: true,
+        xfbml: true,
+        version: 'v5.0'
+      });
+    };
+  </script>
+  <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -41,7 +54,7 @@
     <span class="site-heading-lower">Coding Skills.IO</span>
   </h1>
 
-  <!-- Navigation -->
+   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
       <a class="navbar-brand text-expanded font-weight-bold d-lg-none" href="index.html">Coding Skills.IO</a>
@@ -87,6 +100,8 @@
             You can learn to code online for free and earn digital badges if you like.
             We also provide mentoring to individual coders and organizations either face-to-face or online.
           </p>
+          <div class="fb-messengermessageus" messenger_app_id="1995279044026677" page_id="182234162296278" color="blue"
+          size="xlarge"></div>
         </div>
       </div>
     </div>
@@ -112,12 +127,13 @@
                       <div class="container">
                         <h3>HTML/CSS/JS</h3>
                         <h5>Static Websites</h5>
-                          <h5>Build simple static websites with HTML, CSS and Javascript</h5>
+                        <h5>Build simple static websites with HTML, CSS and Javascript</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-danger text-light" href="https://staticwebsite.tutorial.rclapp.com" target="_blank">LEARN NOW</a>
+                    <a class="btn btn-danger text-light" href="https://staticwebsite.tutorial.rclapp.com"
+                      target="_blank" onClick="ga('send','event','Lesson','click','a1-html-css-js')">LEARN NOW</a>
                   </div>
                 </div>
               </div>
@@ -131,12 +147,13 @@
                       <div class="container">
                         <h3>GitHub</h3>
                         <h5>Version Control</h5>
-                          <h5>Implement version control for your code and collaborate with others</h5>
+                        <h5>Implement version control for your code and collaborate with others</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-danger text-light" href="https://github.tutorial.rclapp.com" target="_blank">LEARN NOW</a>
+                    <a class="btn btn-danger text-light" href="https://github.tutorial.rclapp.com" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','a2-github')">LEARN NOW</a>
                   </div>
                 </div>
               </div>
@@ -150,12 +167,13 @@
                       <div class="container">
                         <h3>C#</h3>
                         <h5>Foundation</h5>
-                          <h5>Write C# code using Types and Statements</h5>
+                        <h5>Write C# code using Types and Statements</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-danger text-light" href="https://csharpfoundation.tutorial.rclapp.com" target="_blank">LEARN NOW</a>
+                    <a class="btn btn-danger text-light" href="https://csharpfoundation.tutorial.rclapp.com"
+                      target="_blank" onClick="ga('send','event','Lesson','click','a3-cs-foundation')">LEARN NOW</a>
                   </div>
                 </div>
               </div>
@@ -169,14 +187,16 @@
                       <div class="container">
                         <h3>C#</h3>
                         <h5>Object Oriented Programming</h5>
-                          <h5>Object Oriented Programming with C#</div>
+                        <h5>Object Oriented Programming with C#
                       </div>
                     </div>
                   </div>
-                  <div class="card-footer">
-                    <a class="btn btn-danger text-light" href="https://csharpoop.tutorial.rclapp.com" target="_blank">LEARN NOW</a>
-                  </div>
                 </div>
+                <div class="card-footer">
+                  <a class="btn btn-danger text-light" href="https://csharpoop.tutorial.rclapp.com"
+                    target="_blank" onClick="ga('send','event','Lesson','click','a4-cs-oop')">LEARN NOW</a>
+                </div>
+              </div>
               <div class="col-md-4 mt-3">
                 <div class="card rounded shadow">
                   <div class="card-header bg-primary">
@@ -192,7 +212,8 @@
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-danger text-light" href="https://csharpadvanced.tutorial.rclapp.com" target="_blank">LEARN NOW</a>
+                    <a class="btn btn-danger text-light" href="https://csharpadvanced.tutorial.rclapp.com"
+                      target="_blank" onClick="ga('send','event','Lesson','click','a5-cs-advance')">LEARN NOW</a>
                   </div>
                 </div>
               </div>
@@ -228,7 +249,8 @@
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','b1-cloud-services')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -247,7 +269,8 @@
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','b2-aspnet-core')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -266,7 +289,8 @@
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','b3-microservices')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -278,14 +302,15 @@
                   <div class="card-body">
                     <div class="jumbotron jumbotron-fluid" style="height: 300px">
                       <div class="container">
-                        <h3>Client Web  Apps</h3>
+                        <h3>Client Web Apps</h3>
                         <h5>Blazor</p>
                           <div>Build client side web apps with Web Assembly and Blazor</div>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','b4-blazor')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -316,12 +341,13 @@
                       <div class="container">
                         <h3>Machine Learning</h3>
                         <h5>ML.NET</h5>
-                          <h5>Build machine learning models with ML.NET</h5>
+                        <h5>Build machine learning models with ML.NET</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','c1-mlnet')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -335,12 +361,13 @@
                       <div class="container">
                         <h3>BOTs</h3>
                         <h5>Azure BOT Service</h5>
-                          <h5>Build BOTs with Azure BOT Service</h5>
+                        <h5>Build BOTs with Azure BOT Service</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','c2-bot')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -354,12 +381,13 @@
                       <div class="container">
                         <h3>Cognitive Services</h3>
                         <h5>Azure Cognitive Services</h5>
-                          <h5>Language, Speech, Vision, and Web Search</h5>
+                        <h5>Language, Speech, Vision, and Web Search</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','c3-cognitive')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -368,7 +396,7 @@
         </div>
       </div>
     </div>
-  
+
   </section>
 
   <section class="page-section cta">
@@ -391,12 +419,13 @@
                       <div class="container">
                         <h3>Cross Platform Apps</h3>
                         <h5>Xamarin Forms</h5>
-                          <h5>Build apps for Android, iOS and Windows with Xamarin.Forms</h5>
+                        <h5>Build apps for Android, iOS and Windows with Xamarin.Forms</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','d1-xamarin')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -410,12 +439,13 @@
                       <div class="container">
                         <h3>Cross Platform Apps</h3>
                         <h5>Progressive Web Apps</h5>
-                          <h5>Build progressive web apps for Android, iOS and Windows</h5>
+                        <h5>Build progressive web apps for Android, iOS and Windows</h5>
                       </div>
                     </div>
                   </div>
                   <div class="card-footer">
-                    <a class="btn btn-secondary text-light" href="#" target="_blank">Coming Soon</a>
+                    <a class="btn btn-secondary text-light" href="#" 
+                    target="_blank" onClick="ga('send','event','Lesson','click','d2-pwa')">Coming Soon</a>
                   </div>
                 </div>
               </div>
@@ -424,7 +454,7 @@
         </div>
       </div>
     </div>
-  
+
   </section>
 
   <footer class="footer text-faded text-center py-5">

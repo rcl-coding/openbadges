@@ -13,6 +13,16 @@
         gtag('config', 'UA-146945738-3');
     </script>
 
+    <!-- Facebook SDK -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1995279044026677',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v5.0'
+            });
+        };
     </script>
     <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 
@@ -35,7 +45,7 @@
     <link href="css/google-maps.css" rel="stylesheet">
 
     <title>Ray Consulting Limited - Coding Skills.IO - Bootcamp</title>
-    <meta name="description" content="Coding bootcamp available in Trinidad and Tobago">
+    <meta name="description" content="Coding bootcamp is available in Trinidad and Tobago">
 </head>
 
 <body>
@@ -96,6 +106,8 @@
                                 You can also arrange online mentoring sessions via online screen-sharing and chat if you
                                 prefer remote mentoring sessions.
                             </p>
+                            <div class="fb-messengermessageus" messenger_app_id="1995279044026677" page_id="182234162296278" color="blue"
+                            size="xlarge"></div>
                             <div class="google-maps mt-5">
                                 <iframe
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.567366767512!2d-61.38303568580887!3d10.534700992485808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c35f923b7f90691%3A0x566803bc374f780!2sRay%20Consulting%20Limited!5e0!3m2!1sen!2stt!4v1580443261683!5m2!1sen!2stt"
@@ -115,7 +127,7 @@
                 <h3>Book your spot now</h3>
                 <h1 class="text-white">$TT500 / Module</h1>
                 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUMzdJWjI0OUZGMjAzQ1lCRExOMFkwQVE0Vi4u"
-                    target="_blank" class="btn btn-lg btn-danger text-white">APPLY</a>
+                    target="_blank" class="btn btn-lg btn-danger text-white" onClick="ga('send','event','Services','click','bootcamp')">APPLY</a>
             </div>
         </div>
     </section>

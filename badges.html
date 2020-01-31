@@ -13,6 +13,19 @@
         gtag('config', 'UA-146945738-3');
     </script>
 
+    <!-- Facebook SDK -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1995279044026677',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v5.0'
+            });
+        };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -64,7 +77,7 @@
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="bootcamp.html">Bootcamp</a>
-                      </li>
+                    </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="employers.html">Employers</a>
                     </li>
@@ -81,6 +94,8 @@
                         <h2 class="section-heading mb-0">
                             <span class="section-heading-upper">About</span>
                             <span class="section-heading-lower">Badges</span>
+                            <div class="fb-messengermessageus" messenger_app_id="1995279044026677"
+                                page_id="182234162296278" color="blue" size="xlarge"></div>
                         </h2>
                     </div>
                 </div>
@@ -96,7 +111,8 @@
                                 target="_blank">Open Badges V2.0 Specification</a> published by the <a
                                 href="https://www.imsglobal.org/" target="_blank">IMS Global Learning Consortium</a>
                         </p>
-                        <a href="https://criteria.badges.rclapp.com" class="btn btn-info text-white mt-3">View our Badges</a>
+                        <a href="https://criteria.badges.rclapp.com" class="btn btn-info text-white mt-3" 
+                        target="_blank" onClick="ga('send','event','Info','click','badge-criteria')">View our Badges</a>
                     </div>
                 </div>
             </div>
@@ -162,8 +178,8 @@
             <div class="text-center">
                 <h3>Earn a Badge Now</h3>
                 <h1 class="text-white">$US35 ($TT250) / Badge</h1>
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUNVNBWFlJMk9UWjFaSUJEV1haR0haTTZLTi4u" 
-                target="_blank" class="btn btn-lg btn-danger text-white">APPLY</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUNVNBWFlJMk9UWjFaSUJEV1haR0haTTZLTi4u"
+                    target="_blank" class="btn btn-lg btn-danger text-white" onClick="ga('send','event','Services','click','digital-badges')">APPLY</a>
             </div>
         </div>
     </section>

@@ -13,6 +13,19 @@
         gtag('config', 'UA-146945738-3');
     </script>
 
+    <!-- Facebook SDK -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '1995279044026677',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v5.0'
+            });
+        };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +44,7 @@
     <link href="css/business-casual.min.css" rel="stylesheet">
 
     <title>Ray Consulting Limited - Coding Skills.IO - Mentors</title>
-    <meta name="description" content="Get a mentor to work with you on your code learning path">
+    <meta name="description" content="Get a mentor, online or face-to-face, to work with you on your code learning path">
 </head>
 
 <body>
@@ -39,7 +52,7 @@
     <h1 class="site-heading text-center text-white d-none d-lg-block">
         <span class="site-heading-upper text-primary mb-3">Ray Consulting Limited</span>
         <span class="site-heading-lower">Coding Skills.IO</span>
-      </h1>
+    </h1>
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
@@ -64,7 +77,7 @@
                     </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="bootcamp.html">Bootcamp</a>
-                      </li>
+                    </li>
                     <li class="nav-item px-lg-4">
                         <a class="nav-link text-uppercase text-expanded" href="employers.html">Employers</a>
                     </li>
@@ -106,6 +119,8 @@
                                     You can get help in person by your mentor.
                                     Face-to-Face mentoring is only available in <strong>Trinidad</strong> at this time.
                                 </p>
+                                <div class="fb-messengermessageus" messenger_app_id="1995279044026677"
+                                    page_id="182234162296278" color="blue" size="xlarge"></div>
                         </div>
                     </div>
                 </div>
@@ -118,18 +133,17 @@
             <div class="text-center">
                 <h3>Get a Mentor Now</h3>
                 <h1 class="text-white">$US75 ($TT500) / Module</h1>
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUOUVEUk5UQ0wxUTlSVVhIREE5VUZZUDAwMy4u" 
-                target="_blank" 
-                class="btn btn-lg btn-danger text-white">APPLY</a>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fJrNEXy8KUm5wicCw7mw52_28Mu97OFNkpO1QBQEkJtUOUVEUk5UQ0wxUTlSVVhIREE5VUZZUDAwMy4u"
+                    target="_blank" class="btn btn-lg btn-danger text-white" onClick="ga('send','event','Services','click','mentorship')">APPLY</a>
             </div>
         </div>
     </section>
 
     <footer class="footer text-faded text-center py-5">
         <div class="container">
-          <p class="m-0 small">Copyright &copy; Ray Consulting Limited 2020 <a href="privacy.html">Privacy</a></p>
+            <p class="m-0 small">Copyright &copy; Ray Consulting Limited 2020 <a href="privacy.html">Privacy</a></p>
         </div>
-      </footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
